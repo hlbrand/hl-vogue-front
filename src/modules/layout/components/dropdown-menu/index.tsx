@@ -60,7 +60,7 @@ const DropdownMenu = () => {
                   <div className="flex items-start content-container">
                     <div className="flex flex-col flex-1 max-w-[30%]">
                       <h3 className="text-base-semi text-gray-900 mb-4">
-                        Collections
+                        Collections_panel
                       </h3>
                       <div className="flex items-start">
                         {collections &&
@@ -94,6 +94,10 @@ const DropdownMenu = () => {
                             />
                           ))}
                       </div>
+                      <h3 className="text-base-semi text-gray-900 mb-4">
+                        Ulzzang_panel
+                      </h3>
+                      
                     </div>
                     <div className="flex-1">
                       <div className="grid grid-cols-3 gap-4">
